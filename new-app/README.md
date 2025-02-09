@@ -1,4 +1,4 @@
-# website
+# new-app
 
 ## Project setup
 ```
