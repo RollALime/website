@@ -8,13 +8,13 @@
       <h1 class="text-4xl font-bold">My Digital CV</h1>
     </header>
 
-    <!-- Horizontal line below header (make it black if you want consistency) -->
-    <hr class="border-black w-full my-4" />
+    <!-- Horizontal line below header -->
+    <hr class="border-gray-400 w-full my-4" />
 
-    <!-- Main Content Container: Two columns -->
-    <div class="flex flex-col md:flex-row p-6 w-full max-w-screen-lg mx-auto">
-      <!-- Left Column (1/3 width) with black vertical line -->
-      <div class="w-full md:w-1/3 p-4 border-r-2 border-black">
+    <!-- Main Content Container: Two columns on all screen sizes -->
+    <div class="flex flex-row p-6 w-full max-w-screen-lg mx-auto">
+      <!-- Left Column (1/3 width) -->
+      <div class="w-1/3 p-4 border-r border-black">
         <!-- Profile Photo -->
         <div class="mb-6 flex justify-center">
           <img
@@ -56,17 +56,15 @@
       </div>
 
       <!-- Right Column (2/3 width) -->
-      <div class="w-full md:w-2/3 p-4">
+      <div class="w-2/3 p-4">
         <!-- Professional Summary -->
         <div class="mb-6">
           <h2 class="text-2xl font-semibold mb-2">Professional Summary:</h2>
           <p class="ml-4">
-            &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
         </div>
 
